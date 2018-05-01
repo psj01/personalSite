@@ -1,0 +1,10 @@
+.container-fluid {
+	padding-top: 70px;
+	padding-bottom: 70px;
+	margin-top:-70px;
+}
+
+
+.img-circle {
+    border-radius: 50%;
+}

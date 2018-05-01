@@ -1,0 +1,10 @@
+<section class="section-charliePics">
+  <ul class="charliePics-showcase clearfix">
+    <li *ngFor="let x of this.charliePics">      
+      <figure class="charliePics-img">
+        <div [style.backgroundImage]="'url('+x+')'" class="thumbnail">                        
+        </div>
+      </figure>
+    </li>
+  </ul>      
+</section>
